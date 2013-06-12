@@ -75,6 +75,25 @@ h2, h3, h4, h5 {
   background-image: -o-linear-gradient(top, white, #f8f8f8);
   background-image: linear-gradient(top, white, #f8f8f8); }
 
+.tweet {
+  display: inline-block;
+  margin: 10px 0; }
+
+.view-code {
+  display: inline-block;
+  margin: -10px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #869cdf;
+  background-image: -webkit-linear-gradient(top, #869cdf, #6c81bd);
+  background-image: -moz-linear-gradient(top, #869cdf, #6c81bd);
+  background-image: linear-gradient(top, #869cdf, #6c81bd);
+  border-radius: 5px;
+  vertical-align: middle; }
+  .view-code:hover {
+    color: #333; }
+
 ul {
   list-style: none;
   padding: 0;
