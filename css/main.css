@@ -754,7 +754,6 @@ a {
   width: 1055px;
   height: 45px;
   position: relative;
-  border: #4e6dfe 2px solid;
   border-radius: 7px;
   background: #fafafa;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -783,11 +782,14 @@ a {
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-mox-sizing: border-box;
-      border-right: #4e6dfe 2px solid;
+      border-right: #EEE 1px solid;
       text-align: center; }
       .nav-ios7 li a:hover {
         color: #fff;
         background: #4e6dfe; }
+    .nav-ios7 li:first-child a {
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px; }
     .nav-ios7 li:nth-child(2) a:hover {
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
       background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));

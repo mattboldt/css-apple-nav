@@ -162,7 +162,7 @@
 	width:1055px;
 	height:45px;
 	position: relative;
-	border:#4e6dfe 2px solid;
+	// border:#4e6dfe 2px solid;
 	border-radius:7px;
 	background:#fafafa;
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -195,12 +195,17 @@
 			-webkit-box-sizing: border-box;
 			-moz-mox-sizing: border-box;
 
-				border-right:#4e6dfe 2px solid;
+				border-right:#EEE 1px solid;
 				text-align: center;
 				&:hover{
 					color:#fff;
 					background:#4e6dfe;
 				}
+			}
+
+			&:first-child a{
+				border-top-left-radius: 7px;
+				border-bottom-left-radius: 7px;
 			}
 
 			&:nth-child(2) a:hover{
